@@ -1,0 +1,295 @@
+/* application css */
+@font-face {
+  font-family: "Yandex";
+  src: url("../font/Yandex.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Yandex", sans-serif;
+}
+.item-menu-box {
+  display: flex;
+  background: #202020;
+  min-height: 40px;
+}
+.item-menu {
+  color: #fff;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+}
+.flex-menu {
+  display: flex;
+  gap: 8px;
+  color: #ababab;
+  text-decoration: none;
+}
+.flex-menu:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.flex-icon {
+  color: #ffffff;
+  text-decoration: none;
+}
+.item-menu-wrapper {
+  display: flex;
+}
+.boild-box {
+  margin: 012px 0px 48px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.flex-build {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+.flex-version {
+  color: #000000;
+  text-decoration: none;
+}
+.flex-build:hover {
+  text-decoration: underline;
+}
+.item-menu-box-center {
+  width: 1080px;
+  display: flex;
+  margin: auto;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.description-box {
+  padding: 12px 0px;
+}
+.description-box h1 {
+  font-family: sans-serif;
+}
+.description-box p {
+  padding: 12px;
+  background: #efefef;
+  border-radius: 4px;
+}
+.content-box-center {
+  display: flex;
+  flex-direction: column;
+}
+.content-box-data {
+  width: 1080px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.content-box-data h3 {
+  font-family: sans-serif;
+}
+.footer-box-center {
+  width: 1080px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.table-flex {
+  width: 100%;
+  margin: 0px auto;
+  text-align: left;
+}
+.td-link {
+  text-decoration: none;
+  color: #3366cc;
+  font-size: 14px;
+}
+.more-load {
+  margin: 20px 0px 20px 0px;
+}
+.header-server {
+  color: #3366cc;
+}
+.user-start li {
+  color: #44aa00;
+}
+.user-reserved li {
+  color: #3366cc;
+}
+.icon-server {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #3366cc;
+}
+.td-off {
+  background: #ffccaa;
+}
+.td-on {
+  background: #ddffaa;
+}
+.td-link:hover {
+  text-decoration: underline;
+  color: #424242;
+}
+.table-flex tbody {
+  background-color: #efefef;
+}
+.table-flex tr {
+  line-height: 2;
+  white-space: nowrap;
+}
+.table-flex tr th {
+  font-family: sans-serif;
+  padding: 0px 8px;
+  white-space: nowrap;
+}
+.table-flex tr td {
+  padding: 0px 8px;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.user-history li::marker {
+  color: #efefef;
+}
+.user-start li::marker {
+  color: #efefef;
+}
+.user-reserved li::marker {
+  color: #efefef;
+}
+.edit-form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.edit-form-input-box {
+  display: flex;
+  gap: 12px;
+}
+.input-box-one {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 12px;
+}
+.input-box-two {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 12px;
+}
+.edit-form-input {
+  padding: 8px;
+  outline: none;
+  border-radius: 4px;
+  border: 2px solid #f0f0f0;
+  background: #f0f0f0;
+}
+.edit-form-input:focus {
+  outline: 2px solid #3366cc;
+  border: 2px solid #ffffff;
+  background: #ffffff;
+}
+.edit-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.btn-success {
+  padding: 8px 12px;
+  background: #3366cc;
+  font-size: 14px;
+  border: 1px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-more {
+  padding: 8px 12px;
+  background: #3366cc;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-cancel {
+  padding: 8px 12px;
+  background: #0c0c0c;
+  font-size: 14px;
+  border: 1px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-default {
+  padding: 8px 12px;
+  background: #f0f0f0;
+  font-size: 14px;
+  border: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-remove {
+  padding: 8px 12px;
+  background: #dd2222;
+  font-size: 14px;
+  border: 1px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-default:hover {
+  background: #dddddd;
+}
+.btn-cancel:hover {
+  background: #222222;
+}
+.btn-success:hover {
+  background: #2a59b8;
+}
+.btn-more:hover {
+  background: #2a59b8;
+}
+.btn-remove:hover {
+  background: #d61b1b;
+}
+.chart-tab {
+  display: flex;
+  margin: 12px 0px 12px 0px;
+}
+.chart-tab-item {
+  padding: 8px;
+  width: 120px;
+  cursor: pointer;
+  text-align: center;
+  background: #efefef;
+  margin: 0px 8px 0px 0px;
+}
+.chart-tab-item:hover {
+  background: #dbdbdb;
+}
+.code-default {
+  padding: 0px 4px;
+  color: #3366cc;
+  font-weight: 600;
+  font-size: 16px;
+}
+.com-box {
+  display: flex;
+  gap: 8px;
+}
+.permission-box {
+  padding: 8px;
+  outline: none;
+  border-radius: 4px;
+  border: 2px solid #f0f0f0;
+  background: #f0f0f0;
+  margin-bottom: 50px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+}
