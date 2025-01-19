@@ -33,6 +33,9 @@
 <li>15 * * * *  php /var/www/html/cron/cron.php >> /dev/null</li>
 </ul>
 
+<h2>Примеры скриншотов</h2>
+<img src="https://raw.githubusercontent.com/informersmedia/img/refs/heads/main/002.png" alt="002" />
+<img src="https://raw.githubusercontent.com/informersmedia/img/refs/heads/main/004.png" alt="004" />
 
 
 
