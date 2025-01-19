@@ -35,6 +35,8 @@
 
 <h2>Примеры скриншотов</h2>
 <img src="https://raw.githubusercontent.com/informersmedia/img/refs/heads/main/002.png" alt="002" />
+
+<h2>Статистика</h2>
 <img src="https://raw.githubusercontent.com/informersmedia/img/refs/heads/main/004.png" alt="004" />
 
 
